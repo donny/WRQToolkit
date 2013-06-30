@@ -8,4 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-#import "WRQTest.h"
+#import <WRQToolkit/WRQTest.h>
