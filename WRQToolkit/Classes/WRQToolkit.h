@@ -8,4 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-#import <WRQToolkit/WRQTest.h>
+#import <WRQToolkit/WRQTableViewController.h>

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1BF22C4178CCBD4005E70CC /* WRQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF22C3178CCBD4005E70CC /* WRQTableViewController.m */; };
+		F1BF22C5178CCBF5005E70CC /* WRQTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1BF22C2178CCBD4005E70CC /* WRQTableViewController.h */; };
 		F1F9C6DC17803E320016B130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F9C6DB17803E320016B130 /* Foundation.framework */; };
-		F1F9C6EF17803F6D0016B130 /* WRQTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9C6EE17803F6D0016B130 /* WRQTest.m */; };
 		F1F9C6F01780401D0016B130 /* WRQToolkit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1F9C6EA17803F540016B130 /* WRQToolkit.h */; };
-		F1F9C6F11780402B0016B130 /* WRQTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1F9C6ED17803F6D0016B130 /* WRQTest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,20 +20,20 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				F1F9C6F11780402B0016B130 /* WRQTest.h in CopyFiles */,
 				F1F9C6F01780401D0016B130 /* WRQToolkit.h in CopyFiles */,
+				F1BF22C5178CCBF5005E70CC /* WRQTableViewController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F1BF22C2178CCBD4005E70CC /* WRQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRQTableViewController.h; sourceTree = "<group>"; };
+		F1BF22C3178CCBD4005E70CC /* WRQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRQTableViewController.m; sourceTree = "<group>"; };
 		F1F9C6D817803E320016B130 /* libWRQToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWRQToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F9C6DB17803E320016B130 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1F9C6DF17803E320016B130 /* WRQToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WRQToolkit-Prefix.pch"; sourceTree = "<group>"; };
 		F1F9C6EA17803F540016B130 /* WRQToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRQToolkit.h; sourceTree = "<group>"; };
-		F1F9C6ED17803F6D0016B130 /* WRQTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRQTest.h; sourceTree = "<group>"; };
-		F1F9C6EE17803F6D0016B130 /* WRQTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRQTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				F1F9C6EA17803F540016B130 /* WRQToolkit.h */,
-				F1F9C6ED17803F6D0016B130 /* WRQTest.h */,
-				F1F9C6EE17803F6D0016B130 /* WRQTest.m */,
+				F1BF22C2178CCBD4005E70CC /* WRQTableViewController.h */,
+				F1BF22C3178CCBD4005E70CC /* WRQTableViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F9C6EF17803F6D0016B130 /* WRQTest.m in Sources */,
+				F1BF22C4178CCBD4005E70CC /* WRQTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +256,7 @@
 				F1F9C6E817803E320016B130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
