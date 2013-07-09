@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F1BF22C4178CCBD4005E70CC /* WRQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF22C3178CCBD4005E70CC /* WRQTableViewController.m */; };
 		F1BF22C5178CCBF5005E70CC /* WRQTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1BF22C2178CCBD4005E70CC /* WRQTableViewController.h */; };
+		F1BF22C8178CCCCF005E70CC /* WRQCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF22C7178CCCCF005E70CC /* WRQCoreDataTableViewController.m */; };
+		F1BF22C9178CCCDB005E70CC /* WRQCoreDataTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1BF22C6178CCCCF005E70CC /* WRQCoreDataTableViewController.h */; };
+		F1BF22CB178CCD9D005E70CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BF22CA178CCD9D005E70CC /* CoreData.framework */; };
 		F1F9C6DC17803E320016B130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F9C6DB17803E320016B130 /* Foundation.framework */; };
 		F1F9C6F01780401D0016B130 /* WRQToolkit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1F9C6EA17803F540016B130 /* WRQToolkit.h */; };
 /* End PBXBuildFile section */
@@ -20,6 +23,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				F1BF22C9178CCCDB005E70CC /* WRQCoreDataTableViewController.h in CopyFiles */,
 				F1F9C6F01780401D0016B130 /* WRQToolkit.h in CopyFiles */,
 				F1BF22C5178CCBF5005E70CC /* WRQTableViewController.h in CopyFiles */,
 			);
@@ -30,6 +34,9 @@
 /* Begin PBXFileReference section */
 		F1BF22C2178CCBD4005E70CC /* WRQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRQTableViewController.h; sourceTree = "<group>"; };
 		F1BF22C3178CCBD4005E70CC /* WRQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRQTableViewController.m; sourceTree = "<group>"; };
+		F1BF22C6178CCCCF005E70CC /* WRQCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRQCoreDataTableViewController.h; sourceTree = "<group>"; };
+		F1BF22C7178CCCCF005E70CC /* WRQCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRQCoreDataTableViewController.m; sourceTree = "<group>"; };
+		F1BF22CA178CCD9D005E70CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F1F9C6D817803E320016B130 /* libWRQToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWRQToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F9C6DB17803E320016B130 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1F9C6DF17803E320016B130 /* WRQToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WRQToolkit-Prefix.pch"; sourceTree = "<group>"; };
@@ -41,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BF22CB178CCD9D005E70CC /* CoreData.framework in Frameworks */,
 				F1F9C6DC17803E320016B130 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +76,7 @@
 		F1F9C6DA17803E320016B130 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1BF22CA178CCD9D005E70CC /* CoreData.framework */,
 				F1F9C6DB17803E320016B130 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -96,6 +105,8 @@
 				F1F9C6EA17803F540016B130 /* WRQToolkit.h */,
 				F1BF22C2178CCBD4005E70CC /* WRQTableViewController.h */,
 				F1BF22C3178CCBD4005E70CC /* WRQTableViewController.m */,
+				F1BF22C6178CCCCF005E70CC /* WRQCoreDataTableViewController.h */,
+				F1BF22C7178CCCCF005E70CC /* WRQCoreDataTableViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1BF22C4178CCBD4005E70CC /* WRQTableViewController.m in Sources */,
+				F1BF22C8178CCCCF005E70CC /* WRQCoreDataTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

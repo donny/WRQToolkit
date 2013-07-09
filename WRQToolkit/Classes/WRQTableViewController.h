@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) NSArray *cellIdentifiers;
 
+- (void)tableView:(UITableView *)tableView configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
+
 @end

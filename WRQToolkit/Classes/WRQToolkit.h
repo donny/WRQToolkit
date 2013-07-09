@@ -9,3 +9,4 @@
 #import <Foundation/Foundation.h>
 
 #import <WRQToolkit/WRQTableViewController.h>
+#import <WRQToolkit/WRQCoreDataTableViewController.h>
